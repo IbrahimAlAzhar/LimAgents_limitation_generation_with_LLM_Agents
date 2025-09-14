@@ -20,7 +20,7 @@ Individual agent runs and evaluations
 
 Comparative results showing the effect of agent decomposition
 
-2. Citation Agent
+### 2. Citation Agent
 
 Implements and evaluates the Citation Agent, grounding limitation generation in broader scholarly context:
 
@@ -30,7 +30,7 @@ Cited-in and cited-by data collection
 
 LLM re-ranking for retrieved passages
 
-3. End-to-End LLM Agents
+### 3. End-to-End LLM Agents
 
 Runs the full LimAgents pipeline:
 
@@ -40,7 +40,7 @@ Generates limitations using the optimal agent setup
 
 Includes evaluation scripts for end-to-end assessment
 
-4. Evaluation
+### 4. Evaluation
 
 Code for evaluating generated limitations:
 
@@ -50,7 +50,7 @@ Quality: LLM-based pairwise matching of generated vs. ground-truth limitations
 
 Supports both coverage metrics and LLM-as-a-judge evaluation
 
-5. Experiment with Other Agents
+### 5. Experiment with Other Agents
 
 Exploratory experiments with non-standard agents:
 
@@ -60,7 +60,7 @@ Graph Agent (graph-based representations)
 
 Image Agent (handling visual content in papers)
 
-6. Ground Truth Extraction
+### 6. Ground Truth Extraction
 
 Scripts for building high-quality ground truth datasets:
 
@@ -70,7 +70,7 @@ Collect peer-review limitations from OpenReview
 
 Merge both sources into a richer gold-standard set
 
-7. Judge and Self-Feedback
+### 7. Judge and Self-Feedback
 
 Implements the Judge Agent and self-refinement loops:
 
@@ -78,7 +78,7 @@ Judge Agent scores limitations (depth, originality, actionability, coverage)
 
 Underperforming outputs trigger re-generation via self-feedback
 
-8. LLM Agents – GPT-4o Mini
+### 8. LLM Agents – GPT-4o Mini
 
 Experiments using GPT-4o mini with the optimal 4-agent setup (Extractor, Analyzer, Reviewer, Citation):
 
@@ -86,7 +86,7 @@ Demonstrates effectiveness of multi-agent orchestration
 
 Provides baseline vs. LLaMA and zero-shot settings
 
-9. LimAgents Prompt
+### 9. LimAgents Prompt
 
 Collection of prompts used in experiments:
 
@@ -96,7 +96,7 @@ Judge Agent and Master Agent
 
 Chain-of-limitations step-by-step workflow
 
-10. Zero-Shot Setting
+### 10. Zero-Shot Setting
 
 Baselines with direct prompting (no agents):
 
@@ -104,7 +104,7 @@ Shows shortcomings of zero-shot methods (vague, generic outputs)
 
 Provides baseline for comparison against LimAgents
 
-🔑 Key Contributions in Code
+### 🔑 Key Contributions in Code
 
 Multi-agent orchestration: Explicit roles for Extractor, Analyzer, Reviewer, Citation
 
