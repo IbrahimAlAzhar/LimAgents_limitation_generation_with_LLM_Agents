@@ -7,6 +7,50 @@
 
 Our work investigates whether LLM agents—specialized roles such as Extractor, Analyzer, Reviewer, and Citation—can generate more meaningful, contextually grounded, and peer-review–ready limitations than traditional zero-shot LLMs. 
 
+## 📂 Repository Structure
+
+├── ablation_study/
+│   ├── LimAgents_Llama_9_Agents.ipynb 
+│   ├── LimAgents_ablation_study_3_Agent_GPT4o_mini.ipynb 
+│   ├── LimAgents_ablation_study_evulation_each_agents.ipynb 
+│   └── LimAgents_ablation_study_with_various_agents.ipynb
+│
+├── citation_agent/
+│   ├── LimAgents_Citation_Agent.ipynb 
+│   ├── LimAgents_LLM_Reranker_in_RAG_Retriever.ipynb
+│   ├── LimAgents_citation_agent_RAG_settings.ipynb
+│   └── LimAgents_cited_by_data_collection.ipynb
+│
+├── end_to_end_llm_agents/
+│   ├── LimAgents_4_Agents_GPT_4o_mini_(end_to_end).ipynb
+│   ├── LimAgents_Llama_3_Agents_(end_to_end).ipynb
+│
+├── evaluation/
+│   ├── LimAgents_Evaluation.ipynb.ipynb
+│
+├── experiment_with_other_agents/
+│   ├── LimAgents_Gemini.ipynb
+│   ├── LimAgents_ablation_study_Graph_Agent.ipynb
+│   └── LimAgents_image_agent.ipynb
+│
+├── ground_truth_extraction/
+│   ├── LimAgents_ground_truth_extraction_by_LLM.ipynb
+│
+├── judge_and_self_feedback/
+│   ├── LimAgents_Judge_and_Self_Feedback.ipynb
+│
+├── llm_agents_gpt4o_mini/
+│   ├── LimAgents_4_Agents_GPT_4o_mini.ipynb
+│
+├── limagents_prompt/
+│   ├── LimAgents_Prompt.ipynb
+│
+├── zero_shot_setting/
+│   ├── LimAgents_zero_shot.ipynb
+│
+└── README.md
+
+
 
 ### 1. Ablation Study
 
