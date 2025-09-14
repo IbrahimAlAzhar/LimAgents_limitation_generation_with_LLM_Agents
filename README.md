@@ -9,6 +9,8 @@ Our work investigates whether LLM agents—specialized roles such as Extractor, 
 
 ## 📂 Repository Structure
 
+```bash
+
 ├── ablation_study/
 │   ├── LimAgents_Llama_9_Agents.ipynb 
 │   ├── LimAgents_ablation_study_3_Agent_GPT4o_mini.ipynb 
@@ -50,7 +52,7 @@ Our work investigates whether LLM agents—specialized roles such as Extractor, 
 │
 └── README.md
 
-
+```
 
 ### 1. Ablation Study
 
