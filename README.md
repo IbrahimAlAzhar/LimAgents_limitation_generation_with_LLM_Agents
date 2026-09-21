@@ -72,7 +72,7 @@ Implements and evaluates the Citation Agent, grounding limitation generation in 
 
 Retrieval-augmented generation (RAG) settings
 
-Cited-in and cited-by data collection
+Cited-in data collection
 
 LLM re-ranking for retrieved passages
 
